@@ -14,12 +14,12 @@ Things you may want to cover:
 
 * Configuration
   - setup .env.development in root path using this value
-  <code>
+  ```
     DATABASE_HOST="localhost"
     DATABASE_USERNAME="your_username"
     DATABASE_PASSWORD="your_password"
     DATABASE_NAME="database_name"
-  </code>
+  ```
   - run bundle install
 
 * Database creation
