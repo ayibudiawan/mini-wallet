@@ -14,13 +14,13 @@ Things you may want to cover:
 
 * Configuration
   - setup .env.development in root path using this value
-  `
-  DATABASE_HOST="localhost"
-  DATABASE_USERNAME="your_username"
-  DATABASE_PASSWORD="your_password"
-  DATABASE_NAME="database_name"
-  `
-  if above environment already added run bundle install
+  <code>
+    DATABASE_HOST="localhost"
+    DATABASE_USERNAME="your_username"
+    DATABASE_PASSWORD="your_password"
+    DATABASE_NAME="database_name"
+  </code>
+  - run bundle install
 
 * Database creation
   - bundle exec rake db:create
@@ -28,11 +28,3 @@ Things you may want to cover:
 * Database initialization
   - bundle exec rake db:migrate
   - bundle exec rake db:seed
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
